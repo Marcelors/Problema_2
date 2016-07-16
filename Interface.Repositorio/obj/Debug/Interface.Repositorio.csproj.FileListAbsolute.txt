@@ -1,0 +1,14 @@
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.Repositorio\bin\Debug\Interface.Repositorio.dll
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.Repositorio\bin\Debug\Interface.Repositorio.pdb
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.Repositorio\bin\Debug\DTO.dll
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.Repositorio\bin\Debug\DTO.pdb
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.Repositorio\obj\Debug\Interface.Repositorio.dll
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.Repositorio\obj\Debug\Interface.Repositorio.pdb
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.Repositorio\obj\Debug\Interface.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\squal\Documents\Projetos\Livraria\Interface.Repositorio\bin\Debug\Interface.Repositorio.dll
+C:\Users\squal\Documents\Projetos\Livraria\Interface.Repositorio\bin\Debug\Interface.Repositorio.pdb
+C:\Users\squal\Documents\Projetos\Livraria\Interface.Repositorio\bin\Debug\DTO.dll
+C:\Users\squal\Documents\Projetos\Livraria\Interface.Repositorio\bin\Debug\DTO.pdb
+C:\Users\squal\Documents\Projetos\Livraria\Interface.Repositorio\obj\Debug\Interface.Repositorio.csprojResolveAssemblyReference.cache
+C:\Users\squal\Documents\Projetos\Livraria\Interface.Repositorio\obj\Debug\Interface.Repositorio.dll
+C:\Users\squal\Documents\Projetos\Livraria\Interface.Repositorio\obj\Debug\Interface.Repositorio.pdb

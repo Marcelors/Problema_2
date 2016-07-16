@@ -1,0 +1,31 @@
+﻿@model Web.Models.ViewGenero
+
+@{
+    ViewBag.Title = "Visualizar";
+}
+
+<div class="col-sm-12">
+    <fieldset>
+        <legend>Visualizar Genero</legend>
+    </fieldset>
+    @Html.Partial("_PartialFeedback")
+
+    @using (Html.BeginForm("Deletar", "Genero", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+    {
+        <div class="form-group">
+            <label for="NomeGenero" class="col-sm-2 control-label">Nome do Genero</label>
+            <div class="col-sm-10">
+                <span class="form-control col-sm-12">@Model.NomeGenero</span>
+            </div>
+        </div>
+        @Html.Hidden("id", Model.IdGenero)
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <a class="btn btn-default" href="@Url.Action("Index","Genero")">Voltar</a>
+                <a class="btn btn-primary" href="@Url.Action("Editar", "Genero", new RouteValueDictionary(new { id = Model.IdGenero }))">Editar</a>
+                <button type="submit" class="btn btn-danger" onclick="return confirm('Dejesa realmente deletar')">Deletar</button>
+            </div>
+        </div>
+    }
+</div>
+

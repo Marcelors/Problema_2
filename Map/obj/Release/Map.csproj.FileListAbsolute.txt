@@ -1,0 +1,12 @@
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\bin\Release\Map.dll.config
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\bin\Release\Map.dll
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\bin\Release\Map.pdb
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\bin\Release\DTO.dll
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\bin\Release\EntityFramework.dll
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\bin\Release\DTO.pdb
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\bin\Release\EntityFramework.xml
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\obj\Release\Map.csprojResolveAssemblyReference.cache
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\obj\Release\Map.dll
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Map\obj\Release\Map.pdb

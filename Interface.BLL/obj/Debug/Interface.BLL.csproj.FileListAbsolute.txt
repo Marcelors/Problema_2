@@ -1,0 +1,14 @@
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.BLL\bin\Debug\Interface.BLL.dll
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.BLL\bin\Debug\Interface.BLL.pdb
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.BLL\bin\Debug\DTO.dll
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.BLL\bin\Debug\DTO.pdb
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.BLL\obj\Debug\Interface.BLL.csprojResolveAssemblyReference.cache
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.BLL\obj\Debug\Interface.BLL.dll
+C:\Users\squal\Documents\Projetos\Esparta\HereFood\Livraria\Interface.BLL\obj\Debug\Interface.BLL.pdb
+C:\Users\squal\Documents\Projetos\Livraria\Interface.BLL\bin\Debug\Interface.BLL.dll
+C:\Users\squal\Documents\Projetos\Livraria\Interface.BLL\bin\Debug\Interface.BLL.pdb
+C:\Users\squal\Documents\Projetos\Livraria\Interface.BLL\bin\Debug\DTO.dll
+C:\Users\squal\Documents\Projetos\Livraria\Interface.BLL\bin\Debug\DTO.pdb
+C:\Users\squal\Documents\Projetos\Livraria\Interface.BLL\obj\Debug\Interface.BLL.csprojResolveAssemblyReference.cache
+C:\Users\squal\Documents\Projetos\Livraria\Interface.BLL\obj\Debug\Interface.BLL.dll
+C:\Users\squal\Documents\Projetos\Livraria\Interface.BLL\obj\Debug\Interface.BLL.pdb

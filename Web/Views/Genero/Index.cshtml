@@ -1,0 +1,71 @@
+﻿@using MvcPaging
+@model PagedList<Web.Models.ViewGenero>
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="col-sm-12">
+
+
+    @Html.Partial("_PartialFeedback")
+
+    <fieldset>
+        <legend>Filtro</legend>
+    </fieldset>
+
+    @using (Html.BeginForm("Index", "Genero", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+    {
+        <div class="form-group">
+            <label for="NomeGenero" class="col-sm-2 control-label">Termo para consultar</label>
+            <div class="col-sm-10">
+                <input name="term" value="@ViewBag.term" class="form-control col-sm-12" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-primary">Consultar</button>
+            </div>
+        </div>
+    }
+
+    <fieldset>
+        <legend>Generos</legend>
+    </fieldset>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Genero</th>
+                <th><a class="btn btn-success pull-right" href="@Url.Action("Novo","Genero")" title="Novo"><i class="glyphicon glyphicon-plus"></i></a></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var temp in Model)
+            {
+                <tr>
+                    <td>@temp.IdGenero</td>
+                    <td>@temp.NomeGenero</td>
+                    <td>
+                        @using (Html.BeginForm("Deletar", "Genero", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+                        {
+                            <input type="hidden" name="id" value="@temp.IdGenero" />
+                            <a class="btn btn-info" href="@Url.Action("Visualizar","Genero", new RouteValueDictionary(new {id = temp.IdGenero }))" title="Visualiar"><i class="glyphicon glyphicon-eye-open"></i></a>
+                            <a class="btn btn-primary" href="@Url.Action("Editar","Genero", new RouteValueDictionary(new {id = temp.IdGenero }))" title="Editar"><i class="glyphicon glyphicon-edit"></i></a>
+                            <button class="btn btn-danger" type="submit" title="Deletar" onclick="return confirm('Dejesa realmente deletar')"><i class="glyphicon glyphicon-trash"></i></button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+
+    <div class="text-center">
+        <ul class="pagination">
+            <li>@Html.Pager(Model.PageSize, Model.PageNumber, Model.TotalItemCount).Options(m => m.AddRouteValue("term", ViewBag.term))
+        </ul>
+    </div>
+</div>

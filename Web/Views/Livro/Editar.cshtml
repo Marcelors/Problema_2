@@ -1,0 +1,54 @@
+﻿@using Web.Controllers
+@model Web.Models.ViewLivro
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+<div class="col-sm-12">
+    <fieldset>
+        <legend>Atualizar Livro</legend>
+    </fieldset>
+    @Html.Partial("_PartialFeedback")
+
+    @using (Html.BeginForm("Atualizar", "Livro", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+    {
+        <div class="form-group">
+            <label for="NomeLivro" class="col-sm-2 control-label">Nome do Livro</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.NomeLivro, new { @class = "form-control col-sm-12", placeholder = "Informe o nome do livro" })
+                @Html.ValidationMessageFor(m => m.NomeLivro)
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="DescricaoLivro" class="col-sm-2 control-label">Descrição do Livro</label>
+            <div class="col-sm-10">
+                @Html.TextAreaFor(m => m.DescricaoLivro, new { @class = "form-control col-sm-12", placeholder = "Informe a descrição do livro" })
+                @Html.ValidationMessageFor(m => m.DescricaoLivro)
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="QtdExemplares" class="col-sm-2 control-label">Quantidade de Exemplares</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.QtdExemplares, new { @class = "form-control col-sm-12", placeholder = "Informe a quantidade de Exemplares" })
+                @Html.ValidationMessageFor(m => m.QtdExemplares)
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="IdGenero" class="col-sm-2 control-label">genero</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.IdGenero,new SelectList(GeneroController.Generos, "IdGenero", "NomeGenero",Model.IdGenero), "Selecione um genero",  new {@class = "form-control col-sm-12" })
+                @Html.ValidationMessageFor(m => m.IdGenero)
+            </div>
+        </div>
+        @Html.HiddenFor(m => m.IdLivro)
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <a class="btn btn-default" href="@Url.Action("Index","Livro")">Voltar</a>
+                <button type="submit" class="btn btn-success">Atualizar</button>
+            </div>
+        </div>
+    }
+</div>
+
+

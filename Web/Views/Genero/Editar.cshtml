@@ -1,0 +1,32 @@
+﻿@model Web.Models.ViewGenero
+
+@{
+    ViewBag.Title = "Editar";
+}
+
+<div class="col-sm-12">
+    <fieldset>
+        <legend>Atualizar Genero</legend>
+    </fieldset>
+    @Html.Partial("_PartialFeedback")
+
+    @using (Html.BeginForm("Atualizar", "Genero", FormMethod.Post, new { @class = "form-horizontal", role = "form", enctype = "multipart/form-data" }))
+    {
+        <div class="form-group">
+            <label for="NomeGenero" class="col-sm-2 control-label">Nome do Genero</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.NomeGenero, new { @class = "form-control col-sm-12", placeholder = "Informe o nome do genero" })
+                @Html.ValidationMessageFor(m => m.NomeGenero)
+            </div>
+        </div>
+        @Html.HiddenFor(m => m.IdGenero)
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <a class="btn btn-default" href="@Url.Action("Index","Genero")">Voltar</a>
+                <button type="submit" class="btn btn-success">Atualizar</button>
+            </div>
+        </div>
+    }
+</div>
+
+

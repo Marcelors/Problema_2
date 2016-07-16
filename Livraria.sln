@@ -61,33 +61,5 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 9
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = BLL\\BLL.csproj
-		SccProjectName1 = BLL
-		SccLocalPath1 = BLL
-		SccProjectUniqueName2 = DTO\\DTO.csproj
-		SccProjectName2 = DTO
-		SccLocalPath2 = DTO
-		SccProjectUniqueName3 = InjecaoDependecia\\InjecaoDependecia.csproj
-		SccProjectName3 = InjecaoDependecia
-		SccLocalPath3 = InjecaoDependecia
-		SccProjectUniqueName4 = Interface.BLL\\Interface.BLL.csproj
-		SccProjectName4 = Interface.BLL
-		SccLocalPath4 = Interface.BLL
-		SccProjectUniqueName5 = Interface.Repositorio\\Interface.Repositorio.csproj
-		SccProjectName5 = Interface.Repositorio
-		SccLocalPath5 = Interface.Repositorio
-		SccProjectUniqueName6 = Map\\Map.csproj
-		SccProjectName6 = Map
-		SccLocalPath6 = Map
-		SccProjectUniqueName7 = Repositorio\\Repositorio.csproj
-		SccProjectName7 = Repositorio
-		SccLocalPath7 = Repositorio
-		SccProjectUniqueName8 = Web\\Web.csproj
-		SccProjectName8 = Web
-		SccLocalPath8 = Web
-	EndGlobalSection
+	
 EndGlobal

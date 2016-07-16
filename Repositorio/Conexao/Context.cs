@@ -9,6 +9,8 @@ namespace Repositorio.Conexao
     {
         public Context() : base("strConexao")
         {
+            Configuration.LazyLoadingEnabled = false;
+            Configuration.ProxyCreationEnabled = false;
         }
 
         public DbSet<Genero> Genero { get; set; }

@@ -165,6 +165,7 @@ namespace Web.Controllers
 
         public static ViewLivro ModelToView(Livro livro)
         {
+            IGeneroBLL generoBLL = InjecaoDependecia.InjecaoDependencia.Get<IGeneroBLL>();
             return new ViewLivro
             {
                 IdGenero = livro.IdGenero,
@@ -172,7 +173,7 @@ namespace Web.Controllers
                 IdLivro = livro.IdLivro,
                 NomeLivro = livro.NomeLivro,
                 QtdExemplares = livro.QtdExemplares,
-                Genero = livro.Genero
+                Genero = generoBLL.ConsultarPorId(livro.IdGenero)
             };
         }
     }
